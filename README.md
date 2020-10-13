@@ -71,7 +71,6 @@ jdbc.driverClassName=com.mysql.jdbc.Driver
 jdbc.url=jdbc:mysql://localhost/cms_db?serverTimezone=UTC
 jdbc.username=root
 jdbc.password=root123
-git clone https://github.com/harveyteofilo/CMS.git
 ```
 4. Build and run the application
 ```sh
