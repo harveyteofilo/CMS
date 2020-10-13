@@ -419,15 +419,15 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="modalLabel">${pageTitle}</h5>
-					<a href="add-user">
+					<a href="/cms/add-user">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
 					</a>
 				</div>
 				<div class="modal-body">
 				</div>
 				<div class="modal-footer">
-					<a href="add-user"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></a>
-					<a href="home"><button type="button" class="btn btn-primary">View Users</button></a>
+					<a href="/cms/add-user"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></a>
+					<a href="/cms/home"><button type="button" class="btn btn-primary">View Users</button></a>
 				</div>
 			</div>
 		</div>
