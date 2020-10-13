@@ -13,7 +13,7 @@
 			if ("" != $(this).val()) {
 				var stateId = $(this).find("option:selected").val();
 				// GET CITIES OF SELECTED STATE
-				$.get("state/" + stateId + "/cities", function(data) {
+				$.get("/cms/state/" + stateId + "/cities", function(data) {
 					$("#citySelect").empty();
 					$("#citySelect").append($("<option>", {
 					    value: "",
